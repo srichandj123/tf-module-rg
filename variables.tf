@@ -1,12 +1,15 @@
 variable "rgname" {
-  type = string
+  type        = string
+  description = "Resource Groupname"
 }
 
 variable "region" {
-  type = string
+  type        = string
+  description = "Azure Location"
 
 }
 
 variable "tags" {
-  type = map(string)
+  type        = map(string)
+  description = "Tags"
 }
