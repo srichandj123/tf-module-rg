@@ -1,9 +1,9 @@
-variable "rgname" {
+variable "rg_name" {
   type        = string
   description = "Resource Groupname"
 }
 
-variable "region" {
+variable "loc" {
   type        = string
   description = "Azure Location"
 
